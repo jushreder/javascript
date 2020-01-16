@@ -39,9 +39,9 @@
       ];
 
       let products_foto = products.filter(function(item) {
-        if ("photos" in item) {
-          return item.photos.length > 0;
-        }
+        return "photos" in item && item.photos.length > 0;
+        // if ("photos" in item) {
+        //   return item.photos.length > 0;
       });
       console.log(products_foto);
 
