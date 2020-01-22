@@ -46,11 +46,12 @@ let config = {
         }
       }
       board += "</tr>";
-      if (cellColor) {
-        cellColor = false;
-      } else {
-        cellColor = true;
-      }
+      cellColor = !cellColor;
+     // if (cellColor) {
+     //   cellColor = false;
+     // } else {
+     //   cellColor = true;
+     // }
     }
     board += "<tr><td class ='board_angle'></td>";
     for (let i = 0; i < config.column.length; i++) {
