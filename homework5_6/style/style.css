@@ -1,0 +1,26 @@
+.board {
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgb(0, 0, 0);
+}
+.board_wait {
+  background-color: rgb(255, 255, 255);
+}
+.board_black {
+  background-color: rgba(46, 38, 38, 0.568);
+}
+.board_rows {
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+table {
+  border-collapse: collapse;
+}

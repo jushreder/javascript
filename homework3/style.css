@@ -1,0 +1,46 @@
+
+button {
+  padding: 15px 30px;
+  background-color: grey;
+  font-size: 20px;
+  color: white;
+}
+.modWindow {
+  width: 500px;
+  padding: 10px;
+
+  border-radius: 10px;
+  font-size: 25px;
+  text-align: center;
+  position: fixed;
+  top: 100px;
+  left: 30%;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+span {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 27px;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(114, 112, 112);
+  font-size: 20px;
+  padding-bottom: 3px;
+}
+span:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+span:active{
+  box-shadow: 0 0 3px rgb(0, 0, 0);
+}
+.hide{
+  display: none;
+}
