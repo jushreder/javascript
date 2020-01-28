@@ -1,0 +1,26 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 270px);
+  grid-gap: 20px;
+}
+
+.product {
+  width: 270px;
+  text-align: center;
+}
+
+img {
+  display: block;
+}
+
+button {
+  margin-top: 15px;
+  display: block;
+  padding: 5px;
+}
+.desc{
+  width: 270px;
+  height: 270px;
+  text-align: justify;
+  font-size: 18px;
+}

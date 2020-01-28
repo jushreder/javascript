@@ -1,0 +1,10 @@
+
+#lightgallery > a {
+text-decoration: none;
+}
+#lightgallery > a > img{
+  width: 20%;
+}
+.popup-gallery{
+  margin-top: 20px;
+}
